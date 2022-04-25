@@ -37,6 +37,8 @@ parede2 = new Ground(325,350,10,60);
   btn1.mouseClicked(Hforce)
 
 
+  
+
   rectMode(CENTER);
   ellipseMode(RADIUS);
 }
