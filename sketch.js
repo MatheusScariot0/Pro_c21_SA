@@ -37,12 +37,10 @@ parede2 = new Ground(325,350,10,60);
   btn1.mouseClicked(Hforce)
 
 
-
-
   rectMode(CENTER);
   ellipseMode(RADIUS);
 }
- 
+
 function draw() {
   background(51);
   ground.show();
@@ -58,5 +56,4 @@ function draw() {
 function Hforce() {
   Matter.Body.applyForce(ball, { x: 0, y: 0 }, { x: 0.05, y: 0 })
 
-    
 }
