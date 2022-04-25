@@ -19,7 +19,8 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
   var ball_options = {
-    restitution: 1,
+    restitution: 0.3,
+    
 
   }
   ball = Bodies.circle(60, 100,20, ball_options);
